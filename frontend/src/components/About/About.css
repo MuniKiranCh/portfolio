@@ -1,0 +1,184 @@
+.about {
+  background: #0a192f;
+  padding: 100px 0;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-header h3 {
+  font-size: 2rem;
+  color: #ccd6f6;
+  margin-bottom: 0.5rem;
+}
+
+.about-header .title {
+  color: #64ffda;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: #8892b0;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  color: #8892b0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.info-item strong {
+  color: #ccd6f6;
+}
+
+.about-details {
+  max-width: 500px;
+}
+
+.education-section,
+.experience-section {
+  margin-bottom: 3rem;
+}
+
+.education-section h4,
+.experience-section h4 {
+  color: #ccd6f6;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #64ffda;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #64ffda;
+}
+
+.timeline-content {
+  background: rgba(100, 255, 218, 0.05);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid #64ffda;
+}
+
+.timeline-content h5 {
+  color: #ccd6f6;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content .institution,
+.timeline-content .company {
+  color: #64ffda;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content .duration {
+  color: #8892b0;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content .description {
+  color: #8892b0;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .about-text,
+  .about-details {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 80px 0;
+  }
+  
+  .about-header h3 {
+    font-size: 1.8rem;
+  }
+  
+  .timeline-item {
+    padding-left: 1.5rem;
+  }
+  
+  .timeline-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    gap: 2rem;
+  }
+  
+  .about-header h3 {
+    font-size: 1.5rem;
+  }
+  
+  .bio {
+    font-size: 1rem;
+  }
+  
+  .timeline-item {
+    padding-left: 1rem;
+  }
+  
+  .timeline-content {
+    padding: 0.8rem;
+  }
+} 
