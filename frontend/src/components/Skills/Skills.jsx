@@ -31,7 +31,7 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', icon: FaNodeJs, proficiency: 82, color: '#339933' },
         { name: 'Express.js', icon: SiExpress, proficiency: 80, color: '#000000' },
-        { name: 'Python', icon: FaPython, proficiency: 70, color: '#3776AB' },
+        // { name: 'Python', icon: FaPython, proficiency: 70, color: '#3776AB' },
         { name: 'Java', icon: FaJava, proficiency: 65, color: '#ED8B00' }
       ]
     },
@@ -47,8 +47,8 @@ const Skills = () => {
       skills: [
         { name: 'Git', icon: FaGitAlt, proficiency: 85, color: '#F05032' },
         { name: 'Docker', icon: FaDocker, proficiency: 60, color: '#2496ED' },
-        { name: 'AWS', icon: FaAws, proficiency: 55, color: '#FF9900' },
-        { name: 'Figma', icon: FaFigma, proficiency: 70, color: '#F24E1E' }
+        // { name: 'AWS', icon: FaAws, proficiency: 55, color: '#FF9900' },
+        // { name: 'Figma', icon: FaFigma, proficiency: 70, color: '#F24E1E' }
       ]
     }
   ]);
