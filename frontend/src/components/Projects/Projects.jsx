@@ -32,7 +32,7 @@ const Projects = () => {
       _id: '2',
       title: 'CodeForTech',
       description: 'A web application that allows users to explore and practice company-wise premium coding questions. Features include company-based filtering, search by title or topic, question difficulty and frequency indicators. Built using the MERN stack, it provides a seamless experience for interview preparation and coding practice.',
-      technologies: ['React', 'JavaScript', 'CSS3', 'Weather API'],
+      technologies: ['React', 'JavaScript', 'TailwindCSS', 'MongoDB'],
       image: Leet,
       githubUrl: 'https://github.com/MuniKiranCh/Leetcode_Premium',
       liveUrl: 'https://leetcode-companywise.vercel.app/',
@@ -59,7 +59,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/MuniKiranCh/SnakeGame',
       liveUrl: 'https://munikiranch.github.io/SnakeGame/',
       category: 'Web Development',
-      featured: true
+      featured: false
     },
     {
       _id: '5',
