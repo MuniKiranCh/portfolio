@@ -3,6 +3,11 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt, FaEye } from 'react-icons/fa';
 import { Tilt } from 'react-tilt';
+import Chess from '../../assets/chess.jpg';
+import Blog from '../../assets/blog.jpg';
+import Leet from '../../assets/leet.jpg';
+import Snake from '../../assets/snake_game.jpg';
+import Portfolio from '../../assets/portfolio.jpg';
 import './Projects.css';
 
 const Projects = () => {
@@ -14,44 +19,55 @@ const Projects = () => {
   const [projects] = useState([
     {
       _id: '1',
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built with MERN stack. Features include user authentication, product management, shopping cart, payment integration, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-      image: 'https://via.placeholder.com/400x250/64ffda/0a192f?text=E-Commerce+Platform',
-      githubUrl: 'https://github.com/yourusername/ecommerce',
-      liveUrl: 'https://ecommerce-demo.com',
+      title: 'Blog Verse',
+      description: 'A full-featured blogging platform inspired by Medium. It features secure JWT authentication, skeleton loading for smooth UX, connection pooling with Prisma, and robust type inference and validation using Zod. The backend is powered by Cloudflare Workers and PostgreSQL, while the frontend is built with React and Vite.',
+      technologies: ['React', 'Cloudflare Workers', 'TypeScript', 'Prisma', 'PostgreSQL'],
+      image: Blog,
+      githubUrl: 'https://github.com/MuniKiranCh/BlogVerse',
+      liveUrl: 'https://blog-verse-three.vercel.app/',
       category: 'Web Development',
       featured: true
     },
     {
       _id: '2',
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-      image: 'https://via.placeholder.com/400x250/64ffda/0a192f?text=Task+Management+App',
-      githubUrl: 'https://github.com/yourusername/task-manager',
-      liveUrl: 'https://task-manager-demo.com',
+      title: 'CodeForTech',
+      description: 'A web application that allows users to explore and practice company-wise premium coding questions. Features include company-based filtering, search by title or topic, question difficulty and frequency indicators. Built using the MERN stack, it provides a seamless experience for interview preparation and coding practice.',
+      technologies: ['React', 'JavaScript', 'CSS3', 'Weather API'],
+      image: Leet,
+      githubUrl: 'https://github.com/MuniKiranCh/Leetcode_Premium',
+      liveUrl: 'https://leetcode-companywise.vercel.app/',
       category: 'Web Development',
       featured: true
     },
     {
       _id: '3',
-      title: 'Weather Dashboard',
-      description: 'A weather application that displays current weather and forecasts using OpenWeatherMap API with beautiful UI and location-based services.',
-      technologies: ['React', 'JavaScript', 'CSS3', 'Weather API'],
-      image: 'https://via.placeholder.com/400x250/64ffda/0a192f?text=Weather+Dashboard',
-      githubUrl: 'https://github.com/yourusername/weather-app',
-      liveUrl: 'https://weather-demo.com',
-      category: 'Web Development',
+      title: '2 Player Chess Game',
+      description: 'A 2 player chess game built with C++. Features include a minimax algorithm for AI opponent, a user-friendly interface, and support for various chess rules.',
+      technologies: ['C++', 'Minimax Algorithm', 'Design Patterns'],
+      image: Chess,
+      githubUrl: 'https://github.com/MuniKiranCh/2-Player-Chess-Game',
+      liveUrl: 'https://github.com/MuniKiranCh/2-Player-Chess-Game',
+      category: 'Game Development',
       featured: false
     },
     {
       _id: '4',
+      title: 'Snake Game',
+      description: 'A fully functional Snake game built with JavaScript. Features include a scoring system, mobile responsiveness, and a simple UI.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      image: Snake,
+      githubUrl: 'https://github.com/MuniKiranCh/SnakeGame',
+      liveUrl: 'https://munikiranch.github.io/SnakeGame/',
+      category: 'Web Development',
+      featured: true
+    },
+    {
+      _id: '5',
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React and styled-components. Features smooth animations and interactive elements.',
       technologies: ['React', 'Styled-Components', 'Framer-Motion'],
-      image: 'https://via.placeholder.com/400x250/64ffda/0a192f?text=Portfolio+Website',
-      githubUrl: 'https://github.com/yourusername/portfolio',
+      image: Portfolio,
+      githubUrl: 'https://github.com/MuniKiranCh/portfolio',
       liveUrl: 'https://portfolio-demo.com',
       category: 'Web Development',
       featured: false
