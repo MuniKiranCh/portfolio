@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
+import profileImage from '../../assets/profileph_gep.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -67,7 +68,7 @@ const Hero = () => {
             <div className="profile-image">
               <div className="placeholder-image">
                 <span>Muni Kiran</span>
-                {/* <img src={profileImage} alt="Muni Kiran" /> */}
+                <img src={profileImage} alt="Muni Kiran" />
               </div>
             </div>
           </motion.div>

@@ -18,19 +18,19 @@ const About = () => {
     email: 'munikiranch@gmail.com',
     phone: '+91 9121716854',
     location: 'Sullurpeta, India',
-    resume: '#',
+    resume: 'https://drive.google.com/file/d/1Alx14ghUbMX2amner_NBZigCq9akmyu9/view?usp=sharing',
     education: [
       {
         degree: 'Bachelor of Technology in Computer Science',
         institution: 'National Institute of Technology, Surathkal',
-        year: '2022 - 2026',
+        year: 'Nov 2022 - June 2026',
         description: 'Specialized in web development'
       }
     ],
     experience: [
       {
         position: 'Software Developer Intern',
-        company: 'GEP',
+        company: 'GEP Worldwide',
         duration: 'May 2025 - July 2025',
         description: 'Automation Testing'
       }
@@ -76,7 +76,7 @@ const About = () => {
               </div>
             </div>
 
-            <a href={aboutData.resume} className="btn btn-primary" download>
+            <a href={aboutData.resume} target='_blank' className="btn btn-primary" download>
               <FaDownload /> Download Resume
             </a>
           </motion.div>

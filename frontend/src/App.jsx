@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <Helmet>
-          <title>Your Name - Portfolio</title>
+          <title>Ch Muni Kiran - Portfolio</title>
           <meta name="description" content="Professional portfolio showcasing web development projects and skills" />
         </Helmet>
         
