@@ -68,7 +68,7 @@ const Projects = () => {
       technologies: ['React', 'Styled-Components', 'Framer-Motion'],
       image: Portfolio,
       githubUrl: 'https://github.com/MuniKiranCh/portfolio',
-      liveUrl: 'https://portfolio-demo.com',
+      liveUrl: 'https://munikiran.vercel.app/',
       category: 'Web Development',
       featured: false
     }
