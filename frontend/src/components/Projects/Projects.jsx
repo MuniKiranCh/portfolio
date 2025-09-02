@@ -35,7 +35,7 @@ const Projects = () => {
       technologies: ['React', 'JavaScript', 'TailwindCSS', 'MongoDB'],
       image: Leet,
       githubUrl: 'https://github.com/MuniKiranCh/Leetcode_Premium',
-      liveUrl: 'https://leetcode-companywise.vercel.app/',
+      // liveUrl: 'https://leetcode-companywise.vercel.app/',
       category: 'Web Development',
       featured: true
     },
